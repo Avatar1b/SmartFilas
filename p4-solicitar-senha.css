@@ -1,0 +1,191 @@
+
+       header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 60px;
+    position: relative;
+    
+}
+
+
+
+.escolherLingua{
+    margin: 15px;
+    gap: 30px;
+    
+
+
+
+}
+
+
+
+
+
+
+    
+
+
+
+#logo{
+  display: flex;
+  align-items: center;
+   gap: 10px;
+  
+}
+#imglogo{
+    width: 70px;
+    height: 70px;
+}
+
+
+
+
+.logotipo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+       
+}
+
+
+
+
+
+#slogan{
+    margin-top: -23px;
+  
+    }
+
+
+
+
+    #smart{
+        color: #34C759;
+    }
+span{
+    color: #6155F5;
+}
+
+
+
+.menuh{
+    display: flex;
+    
+}
+.menu{
+    display: flex;
+    text-align: right;
+    align-items: center;
+    gap: 20px;
+    font-size: 21px;
+    
+}
+
+
+
+.hov:hover{
+
+
+
+    padding:10px;
+    border-radius:10px;
+    background-color:whitesmoke;
+    font-weight:bold;
+}
+
+
+
+.menuh:hover{
+    color:#34C759;
+   box-shadow: 10px 10px 3px black;
+}
+
+
+
+#menunav{
+    text-decoration: none;
+    color: black;
+} 
+
+
+body {
+    font: normal 10pt sans-serif;
+}
+
+
+#prg {
+   position: relative;
+    top: 40px;
+}
+
+
+section {
+    margin-top: 90px;
+    min-width: 39px;
+    border: none;
+    padding: 25px;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    align-items: center;
+    justify-content: center;
+    gap:46px 25px;
+    border: 1px solid rgba(128, 128, 128, 0.288);
+
+
+}
+
+
+.card {
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.288);
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+     width: 60%;
+    
+}
+
+
+.child {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+    
+}
+
+
+.seta {
+    color: rgba(128, 128, 128, 0.780);
+}
+
+
+.info {
+    background-color: #0088ff63;
+    border-radius: 18px;
+    padding: 10px;
+    width: 200px;
+    position: relative;
+    top: 40px;
+    left: 60px;
+    display: inline-flex;
+}
+
+
+#inf {
+   position: relative;
+    top: 13px;
+    left: -7px; 
+}

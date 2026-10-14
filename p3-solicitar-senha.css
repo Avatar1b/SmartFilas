@@ -1,0 +1,156 @@
+*{
+	font-family:arial, sans-serif;
+	
+}
+
+body {
+    background-color:white ;
+}
+
+
+header{
+    display:flex;
+	justify-content:space-between;
+	align-items:center;
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 60px;
+    position: relative;
+	
+}
+
+.escolherLingua{
+    margin: 15px;
+    gap: 30px;
+    
+
+}
+
+
+
+
+    
+
+#logo{
+  display: flex;
+  align-items: center;
+   gap: 10px;
+  
+}
+#imglogo{
+    width: 70px;
+    height: 70px;
+}
+
+
+.logotipo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+       
+}
+
+
+
+#slogan{
+    margin-top: -23px;
+  
+    }
+
+
+    #smart{
+        color: #34C759;
+    }
+span{
+    color: #6155F5;
+}
+
+.menuh{
+    display: flex;
+    
+}
+.menu{
+    display: flex;
+    text-align: right;
+    align-items: center;
+    gap: 20px;
+    font-size: 21px;
+    
+}
+
+.hov:hover{
+
+	padding:10px;
+	border-radius:10px;
+	background-color:whitesmoke;
+	font-weight:bold;
+}
+
+.menuh:hover{
+    color:#34C759;
+   box-shadow: 10px 10px 3px black;
+}
+
+#menunav{
+    text-decoration: none;
+    color: black;
+}
+.card{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 70px;
+    flex-direction: column;
+    color: #34C759;
+    background-color: #DDFFE6;
+    padding: 30px;
+    border-radius: 10px;
+}
+.descricao{
+    margin-top: 60px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+#descricao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1300px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid gray 1px;
+    box-shadow: 2px 3px 2px gray;
+  
+}
+#info{
+    margin-left: 40px;
+}
+
+button{
+    color: white;
+    font-weight: bold;
+    background-color: #0088FF;
+    border:1px solid #0088FF;
+    border-radius: 10px;
+    padding: 20px;
+    width: 340px;
+     margin-bottom: 20px;
+    
+}
+
+footer{
+   
+    text-align: center;
+}
